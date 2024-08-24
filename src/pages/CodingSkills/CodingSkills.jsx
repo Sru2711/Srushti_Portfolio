@@ -1,10 +1,10 @@
 import React from 'react'
-import "../styles/CodingSkills.css";
+// import "../styles/CodingSkills.css";
 import Skill from './Skill';
 const CodingSkills = () => {
     let skills=[{},{},{}];
   return (
-    <div>
+    <div >
         {
             skills.map((skill)=>{
                 return(
